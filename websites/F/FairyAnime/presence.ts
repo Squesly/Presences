@@ -31,7 +31,7 @@ presence.on("UpdateData", async () => {
 	};
 
 	// Presence
-	if (path.hostname === "fairyanime.com" || path.hostname.includes("www.")) {
+	if (path.hostname === "fairyanime.net" || path.hostname.includes("www.")) {
 		if (document.location.pathname === "/") {
 			presenceData.startTimestamp = browsingTimestamp;
 			presenceData.details = (await strings).browsing;
